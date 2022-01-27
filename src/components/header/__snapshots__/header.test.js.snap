@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComponentName should render my component 1`] = `
+Array [
+  <div
+    className="header"
+  >
+    <div
+      className="header__left"
+    >
+      <Memo />
+      <Link
+        to="/"
+      >
+        <img
+          alt="yt_logo"
+          className="header__logo"
+          src="logo.png"
+        />
+      </Link>
+    </div>
+    <form
+      className="header__input"
+      onSubmit={[Function]}
+    >
+      <input
+        id="input-search"
+        onChange={[Function]}
+        placeholder="Search"
+        type="text"
+        value=""
+      />
+      <Link
+        to="/search/"
+      >
+        <Memo
+          className="header__inputButton"
+        />
+      </Link>
+    </form>
+    <div
+      className="header__icons"
+    >
+      <React.Fragment>
+        <Memo
+          className="header__icon"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        />
+        <Memo
+          className="header__icon"
+        />
+        <Memo
+          className="header__icon"
+        />
+        <WithStyles(ForwardRef(Avatar))
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        />
+        <SimpleDialog
+          onClose={[Function]}
+          open={false}
+        />
+        <WithStyles(ForwardRef(Menu))
+          anchorEl={null}
+          id="simple-menu"
+          keepMounted={true}
+          onClose={[Function]}
+          open={false}
+        >
+          <WithStyles(ForwardRef(MenuItem))
+            onClick={[Function]}
+          >
+            Sign In
+          </WithStyles(ForwardRef(MenuItem))>
+        </WithStyles(ForwardRef(Menu))>
+      </React.Fragment>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Header Compoment should render Header 1`] = `
+Array [
+  <div
+    className="header"
+  >
+    <div
+      className="header__left"
+    >
+      <Memo />
+      <Link
+        to="/"
+      >
+        <img
+          alt="yt_logo"
+          className="header__logo"
+          src="logo.png"
+        />
+      </Link>
+    </div>
+    <form
+      className="header__input"
+      onSubmit={[Function]}
+    >
+      <input
+        id="input-search"
+        onChange={[Function]}
+        placeholder="Search"
+        type="text"
+        value=""
+      />
+      <Link
+        to="/search/"
+      >
+        <Memo
+          className="header__inputButton"
+        />
+      </Link>
+    </form>
+    <div
+      className="header__icons"
+    >
+      <React.Fragment>
+        <Memo
+          className="header__icon"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        />
+        <Memo
+          className="header__icon"
+        />
+        <Memo
+          className="header__icon"
+        />
+        <WithStyles(ForwardRef(Avatar))
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        />
+        <SimpleDialog
+          onClose={[Function]}
+          open={false}
+        />
+        <WithStyles(ForwardRef(Menu))
+          anchorEl={null}
+          id="simple-menu"
+          keepMounted={true}
+          onClose={[Function]}
+          open={false}
+        >
+          <WithStyles(ForwardRef(MenuItem))
+            onClick={[Function]}
+          >
+            Sign In
+          </WithStyles(ForwardRef(MenuItem))>
+        </WithStyles(ForwardRef(Menu))>
+      </React.Fragment>
+    </div>
+  </div>,
+]
+`;
